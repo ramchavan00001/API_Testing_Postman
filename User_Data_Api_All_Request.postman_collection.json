@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "18bbd2aa-1d2e-494b-a967-6bd8d52b763c",
+		"name": "User_Data_Api_All_Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20210399",
+		"_collection_link": "https://restless-zodiac-525891.postman.co/workspace/My_FirstWorkspace~ef850837-d3d5-4743-83ec-91f84cc9bd5a/collection/20210399-18bbd2aa-1d2e-494b-a967-6bd8d52b763c?action=share&source=collection_link&creator=20210399"
+	},
+	"item": [
+		{
+			"name": "Get_User_Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests[\"Validation of status code \"]=responseCode.code==200;\r",
+							"var response = JSON.parse(responseBody);\r",
+							"tests[\"validation of total page\"]=response.page==2;\r",
+							"tests[\"validation of total fields\"]=response.total==12;\r",
+							"tests[\"validation of mail\"]=response.data[0].email==\"michael.lawson@reqres.in\";\r",
+							"tests[\"validation of first name \"]=response.data[1].first_name==\"Lindsay\";"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create_User_",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests[\"validation of status code \"]=responseCode.code==201;\r",
+							"tests[\"validation of createdAt\"]=responseBody.has(\"createdAt\");\r",
+							"tests[\"validation of id \"]=responseBody.has(\"id\");\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"name\":\"Michal Jursey\",\r\n      \"Job\":\"QA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update_User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests[\"Valifation of Status code\"]=responseCode.code==200;\r",
+							"tests[\"Updated at text presence check\"]=responseBody.has(\"updatedAt\");\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\": \"Michael\",\r\n    \"last_name\": \"Chavan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users/2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

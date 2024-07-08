@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "eaa127bb-02d1-423c-beff-84a0d774252c",
+		"name": "Data_Driven_Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20210399",
+		"_collection_link": "https://restless-zodiac-525891.postman.co/workspace/My_FirstWorkspace~ef850837-d3d5-4743-83ec-91f84cc9bd5a/collection/20210399-eaa127bb-02d1-423c-beff-84a0d774252c?action=share&source=collection_link&creator=20210399"
+	},
+	"item": [
+		{
+			"name": "Create_Employee_with_Single_Data_In_body",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests[\"Check status code\"]=responseCode.code==200;\r",
+							"tests[\"Check status success in respone\"]=responseBody.has(\"success\");\r",
+							"\r",
+							"var respone=JSON.parse(responseBody);\r",
+							"tests[\"Check status at exact position not in whole body\"]=respone.status==\"success\";\r",
+							"\r",
+							"//validation of headers data using postman function\r",
+							"pm.test(\"check content type header \", function()\r",
+							"{\r",
+							"    pm.response.to.be.header(\"Content-Type\",\"application/json\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_name\": \"Ram Chavan\",\r\n    \"employee_salary\": 162700,\r\n    \"employee_age\": 33\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/create",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create_Users_Data_for_single_user_Data_in_body",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests[\"Check status code\"]=responseCode.code==201;\r",
+							"//tests[\"Check status success in respone\"]=responseBody.has(\"success\");\r",
+							"\r",
+							"var respone=JSON.parse(responseBody);\r",
+							"//tests[\"Check status at exact position not in whole body\"]=respone.status==\"success\";\r",
+							"\r",
+							"//validation of headers data using postman function\r",
+							"pm.test(\"check content type header \", function()\r",
+							"{\r",
+							"    pm.response.to.be.header(\"Content-Type\",\"application/json; charset=utf-8\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ram hfhf\",\r\n    \"Job\": \"QA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create_Employee_With_Multiple_Data_Using_CSV_file_TestData",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests[\"Check status code\"]=responseCode.code==200;\r",
+							"tests[\"Check status success in respone\"]=responseBody.has(\"success\");\r",
+							"\r",
+							"var respone=JSON.parse(responseBody);\r",
+							"tests[\"Check status at exact position not in whole body\"]=respone.status==\"success\";\r",
+							"\r",
+							"//validation of headers data using postman function\r",
+							"pm.test(\"check content type header \", function()\r",
+							"{\r",
+							"    pm.response.to.be.header(\"Content-Type\",\"application/json\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employee_name\": \"{{employee_name}}\",\r\n    \"employee_salary\": \"{{employee_salary}}\",\r\n    \"employee_age\": \"{{employee_age}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/create",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UserData_Request_MultipleDataWithJSONFile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"tests[\"Check Response Code\"]=responseCode.code==201;\r",
+							"tests[\"Check Presence of CreatedAt in responce body\"]=responseBody.has(\"createdAt\");\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"{{name}}\",\r\n    \"Job\": \"{{Job}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
