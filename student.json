@@ -1,0 +1,1164 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 21,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 101,
+          "course_name": "Mathematics",
+          "grade": "A"
+        },
+        {
+          "course_id": 102,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890"
+      },
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "enrollment_date": "2022-08-15"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "age": 22,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 103,
+          "course_name": "Biology",
+          "grade": "A-"
+        },
+        {
+          "course_id": 104,
+          "course_name": "Chemistry",
+          "grade": "B"
+        }
+      ],
+      "contact_details": {
+        "email": "jane.smith@example.com",
+        "phone": "987-654-3210"
+      },
+      "address": {
+        "street": "456 Oak St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "67890"
+      },
+      "enrollment_date": "2021-09-10"
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "age": 20,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 105,
+          "course_name": "Physics",
+          "grade": "B+"
+        },
+        {
+          "course_id": 106,
+          "course_name": "History",
+          "grade": "A"
+        }
+      ],
+      "contact_details": {
+        "email": "michael.johnson@example.com",
+        "phone": "555-123-4567"
+      },
+      "address": {
+        "street": "789 Pine St",
+        "city": "Sometown",
+        "state": "FL",
+        "zip": "34567"
+      },
+      "enrollment_date": "2020-01-15"
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "age": 23,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 107,
+          "course_name": "English",
+          "grade": "A"
+        },
+        {
+          "course_id": 108,
+          "course_name": "Art",
+          "grade": "A-"
+        }
+      ],
+      "contact_details": {
+        "email": "emily.davis@example.com",
+        "phone": "444-321-9876"
+      },
+      "address": {
+        "street": "321 Birch St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "78901"
+      },
+      "enrollment_date": "2021-06-20"
+    },
+    {
+      "id": "5",
+      "name": "Christopher Brown",
+      "age": 21,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 109,
+          "course_name": "Chemistry",
+          "grade": "B"
+        },
+        {
+          "course_id": 110,
+          "course_name": "Biology",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "christopher.brown@example.com",
+        "phone": "111-222-3333"
+      },
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "65432"
+      },
+      "enrollment_date": "2019-12-10"
+    },
+    {
+      "id": "6",
+      "name": "Sarah Wilson",
+      "age": 22,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 111,
+          "course_name": "Philosophy",
+          "grade": "A-"
+        },
+        {
+          "course_id": 112,
+          "course_name": "Economics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "sarah.wilson@example.com",
+        "phone": "222-333-4444"
+      },
+      "address": {
+        "street": "987 Spruce St",
+        "city": "Newtown",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2020-03-05"
+    },
+    {
+      "id": "7",
+      "name": "Matthew Moore",
+      "age": 23,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 113,
+          "course_name": "Engineering",
+          "grade": "A"
+        },
+        {
+          "course_id": 114,
+          "course_name": "Computer Science",
+          "grade": "A-"
+        }
+      ],
+      "contact_details": {
+        "email": "matthew.moore@example.com",
+        "phone": "333-444-5555"
+      },
+      "address": {
+        "street": "123 Aspen St",
+        "city": "Somecity",
+        "state": "CA",
+        "zip": "78901"
+      },
+      "enrollment_date": "2021-07-30"
+    },
+    {
+      "id": "8",
+      "name": "Ashley Taylor",
+      "age": 24,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 115,
+          "course_name": "Mathematics",
+          "grade": "A"
+        },
+        {
+          "course_id": 116,
+          "course_name": "Physics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "ashley.taylor@example.com",
+        "phone": "444-555-6666"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "12345"
+      },
+      "enrollment_date": "2018-09-10"
+    },
+    {
+      "id": "9",
+      "name": "Joshua Anderson",
+      "age": 20,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 117,
+          "course_name": "Biology",
+          "grade": "A-"
+        },
+        {
+          "course_id": 118,
+          "course_name": "Chemistry",
+          "grade": "B"
+        }
+      ],
+      "contact_details": {
+        "email": "joshua.anderson@example.com",
+        "phone": "555-666-7777"
+      },
+      "address": {
+        "street": "789 Maple St",
+        "city": "Sometown",
+        "state": "TX",
+        "zip": "34567"
+      },
+      "enrollment_date": "2020-05-15"
+    },
+    {
+      "id": "10",
+      "name": "Jessica Martinez",
+      "age": 22,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 119,
+          "course_name": "History",
+          "grade": "B+"
+        },
+        {
+          "course_id": 120,
+          "course_name": "Sociology",
+          "grade": "A"
+        }
+      ],
+      "contact_details": {
+        "email": "jessica.martinez@example.com",
+        "phone": "666-777-8888"
+      },
+      "address": {
+        "street": "321 Birch St",
+        "city": "Anycity",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2019-11-20"
+    },
+    {
+      "id": "11",
+      "name": "Daniel Garcia",
+      "age": 21,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 121,
+          "course_name": "Engineering",
+          "grade": "A"
+        },
+        {
+          "course_id": 122,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "daniel.garcia@example.com",
+        "phone": "777-888-9999"
+      },
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "65432"
+      },
+      "enrollment_date": "2021-01-10"
+    },
+    {
+      "id": "12",
+      "name": "Megan Lee",
+      "age": 23,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 123,
+          "course_name": "English",
+          "grade": "A-"
+        },
+        {
+          "course_id": 124,
+          "course_name": "Art",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "megan.lee@example.com",
+        "phone": "888-999-0000"
+      },
+      "address": {
+        "street": "987 Spruce St",
+        "city": "Newtown",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2020-08-05"
+    },
+    {
+      "id": "13",
+      "name": "Ryan Martinez",
+      "age": 22,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 125,
+          "course_name": "Chemistry",
+          "grade": "B"
+        },
+        {
+          "course_id": 126,
+          "course_name": "Biology",
+          "grade": "A-"
+        }
+      ],
+      "contact_details": {
+        "email": "ryan.martinez@example.com",
+        "phone": "999-000-1111"
+      },
+      "address": {
+        "street": "123 Maple St",
+        "city": "Sometown",
+        "state": "TX",
+        "zip": "34567"
+      },
+      "enrollment_date": "2019-12-20"
+    },
+    {
+      "id": "14",
+      "name": "Olivia White",
+      "age": 21,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 127,
+          "course_name": "Philosophy",
+          "grade": "A"
+        },
+        {
+          "course_id": 128,
+          "course_name": "Economics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "olivia.white@example.com",
+        "phone": "000-111-2222"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "12345"
+      },
+      "enrollment_date": "2018-06-15"
+    },
+    {
+      "id": "15",
+      "name": "Anthony Harris",
+      "age": 23,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 129,
+          "course_name": "Engineering",
+          "grade": "A-"
+        },
+        {
+          "course_id": 130,
+          "course_name": "Computer Science",
+          "grade": "A"
+        }
+      ],
+      "contact_details": {
+        "email": "anthony.harris@example.com",
+        "phone": "111-222-3333"
+      },
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "65432"
+      },
+      "enrollment_date": "2020-09-20"
+    },
+    {
+      "id": "16",
+      "name": "Isabella Martin",
+      "age": 20,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 131,
+          "course_name": "Mathematics",
+          "grade": "B+"
+        },
+        {
+          "course_id": 132,
+          "course_name": "Physics",
+          "grade": "A"
+        }
+      ],
+      "contact_details": {
+        "email": "isabella.martin@example.com",
+        "phone": "222-333-4444"
+      },
+      "address": {
+        "street": "987 Spruce St",
+        "city": "Newtown",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2019-05-25"
+    },
+    {
+      "id": "17",
+      "name": "David Clark",
+      "age": 22,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 133,
+          "course_name": "History",
+          "grade": "B"
+        },
+        {
+          "course_id": 134,
+          "course_name": "Sociology",
+          "grade": "A-"
+        }
+      ],
+      "contact_details": {
+        "email": "david.clark@example.com",
+        "phone": "333-444-5555"
+      },
+      "address": {
+        "street": "123 Aspen St",
+        "city": "Somecity",
+        "state": "CA",
+        "zip": "78901"
+      },
+      "enrollment_date": "2020-01-30"
+    },
+    {
+      "id": "18",
+      "name": "Sophia Robinson",
+      "age": 21,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 135,
+          "course_name": "Engineering",
+          "grade": "A"
+        },
+        {
+          "course_id": 136,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "sophia.robinson@example.com",
+        "phone": "444-555-6666"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "12345"
+      },
+      "enrollment_date": "2019-08-10"
+    },
+    {
+      "id": "19",
+      "name": "James Rodriguez",
+      "age": 23,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 137,
+          "course_name": "Biology",
+          "grade": "A-"
+        },
+        {
+          "course_id": 138,
+          "course_name": "Chemistry",
+          "grade": "B"
+        }
+      ],
+      "contact_details": {
+        "email": "james.rodriguez@example.com",
+        "phone": "555-666-7777"
+      },
+      "address": {
+        "street": "789 Pine St",
+        "city": "Sometown",
+        "state": "FL",
+        "zip": "34567"
+      },
+      "enrollment_date": "2020-11-15"
+    },
+    {
+      "id": "20",
+      "name": "Mia Lewis",
+      "age": 24,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 139,
+          "course_name": "Philosophy",
+          "grade": "A"
+        },
+        {
+          "course_id": 140,
+          "course_name": "Economics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "mia.lewis@example.com",
+        "phone": "666-777-8888"
+      },
+      "address": {
+        "street": "321 Birch St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "78901"
+      },
+      "enrollment_date": "2018-04-20"
+    },
+    {
+      "id": "21",
+      "name": "Alexander Walker",
+      "age": 22,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 141,
+          "course_name": "Engineering",
+          "grade": "A"
+        },
+        {
+          "course_id": 142,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "alexander.walker@example.com",
+        "phone": "777-888-9999"
+      },
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "65432"
+      },
+      "enrollment_date": "2020-05-10"
+    },
+    {
+      "id": "22",
+      "name": "Ella Hall",
+      "age": 21,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 143,
+          "course_name": "English",
+          "grade": "A-"
+        },
+        {
+          "course_id": 144,
+          "course_name": "Art",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "ella.hall@example.com",
+        "phone": "888-999-0000"
+      },
+      "address": {
+        "street": "987 Spruce St",
+        "city": "Newtown",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2019-07-25"
+    },
+    {
+      "id": "23",
+      "name": "Benjamin Allen",
+      "age": 23,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 145,
+          "course_name": "Mathematics",
+          "grade": "A"
+        },
+        {
+          "course_id": 146,
+          "course_name": "Physics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "benjamin.allen@example.com",
+        "phone": "999-000-1111"
+      },
+      "address": {
+        "street": "123 Maple St",
+        "city": "Sometown",
+        "state": "TX",
+        "zip": "34567"
+      },
+      "enrollment_date": "2018-02-20"
+    },
+    {
+      "id": "24",
+      "name": "Amelia Young",
+      "age": 22,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 147,
+          "course_name": "History",
+          "grade": "A-"
+        },
+        {
+          "course_id": 148,
+          "course_name": "Sociology",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "amelia.young@example.com",
+        "phone": "000-111-2222"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "12345"
+      },
+      "enrollment_date": "2019-10-15"
+    },
+    {
+      "id": "25",
+      "name": "Samuel Hernandez",
+      "age": 20,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 149,
+          "course_name": "Engineering",
+          "grade": "A"
+        },
+        {
+          "course_id": 150,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "samuel.hernandez@example.com",
+        "phone": "111-222-3333"
+      },
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "65432"
+      },
+      "enrollment_date": "2021-01-10"
+    },
+    {
+      "id": "26",
+      "name": "Charlotte King",
+      "age": 21,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 151,
+          "course_name": "Biology",
+          "grade": "A-"
+        },
+        {
+          "course_id": 152,
+          "course_name": "Chemistry",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "charlotte.king@example.com",
+        "phone": "222-333-4444"
+      },
+      "address": {
+        "street": "987 Spruce St",
+        "city": "Newtown",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2020-07-25"
+    },
+    {
+      "id": "27",
+      "name": "Liam Wright",
+      "age": 22,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 153,
+          "course_name": "History",
+          "grade": "A"
+        },
+        {
+          "course_id": 154,
+          "course_name": "Sociology",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "liam.wright@example.com",
+        "phone": "333-444-5555"
+      },
+      "address": {
+        "street": "123 Aspen St",
+        "city": "Somecity",
+        "state": "CA",
+        "zip": "78901"
+      },
+      "enrollment_date": "2019-02-15"
+    },
+    {
+      "id": "28",
+      "name": "Avery Scott",
+      "age": 23,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 155,
+          "course_name": "Engineering",
+          "grade": "A"
+        },
+        {
+          "course_id": 156,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "avery.scott@example.com",
+        "phone": "444-555-6666"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "12345"
+      },
+      "enrollment_date": "2020-08-20"
+    },
+    {
+      "id": "29",
+      "name": "Lucas Green",
+      "age": 24,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 157,
+          "course_name": "Mathematics",
+          "grade": "A"
+        },
+        {
+          "course_id": 158,
+          "course_name": "Physics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "lucas.green@example.com",
+        "phone": "555-666-7777"
+      },
+      "address": {
+        "street": "789 Pine St",
+        "city": "Sometown",
+        "state": "FL",
+        "zip": "34567"
+      },
+      "enrollment_date": "2018-01-15"
+    },
+    {
+      "id": "30",
+      "name": "Victoria Adams",
+      "age": 21,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 159,
+          "course_name": "Biology",
+          "grade": "A-"
+        },
+        {
+          "course_id": 160,
+          "course_name": "Chemistry",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "victoria.adams@example.com",
+        "phone": "666-777-8888"
+      },
+      "address": {
+        "street": "321 Birch St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "78901"
+      },
+      "enrollment_date": "2019-06-20"
+    },
+    {
+      "id": "31",
+      "name": "Henry Baker",
+      "age": 22,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 161,
+          "course_name": "Philosophy",
+          "grade": "A"
+        },
+        {
+          "course_id": 162,
+          "course_name": "Economics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "henry.baker@example.com",
+        "phone": "777-888-9999"
+      },
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "65432"
+      },
+      "enrollment_date": "2020-03-10"
+    },
+    {
+      "id": "32",
+      "name": "Grace Nelson",
+      "age": 23,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 163,
+          "course_name": "Engineering",
+          "grade": "A"
+        },
+        {
+          "course_id": 164,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "grace.nelson@example.com",
+        "phone": "888-999-0000"
+      },
+      "address": {
+        "street": "987 Spruce St",
+        "city": "Newtown",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2019-11-25"
+    },
+    {
+      "id": "34",
+      "name": "Zoe Perez",
+      "age": 21,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 167,
+          "course_name": "Biology",
+          "grade": "A-"
+        },
+        {
+          "course_id": 168,
+          "course_name": "Chemistry",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "zoe.perez@example.com",
+        "phone": "000-111-2222"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "12345"
+      },
+      "enrollment_date": "2020-05-20"
+    },
+    {
+      "id": "35",
+      "name": "Sebastian Thompson",
+      "age": 23,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 169,
+          "course_name": "History",
+          "grade": "A"
+        },
+        {
+          "course_id": 170,
+          "course_name": "Sociology",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "sebastian.thompson@example.com",
+        "phone": "111-222-3333"
+      },
+      "address": {
+        "street": "654 Cedar St",
+        "city": "Othertown",
+        "state": "TX",
+        "zip": "65432"
+      },
+      "enrollment_date": "2019-08-10"
+    },
+    {
+      "id": "36",
+      "name": "Harper Allen",
+      "age": 20,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 171,
+          "course_name": "English",
+          "grade": "A-"
+        },
+        {
+          "course_id": 172,
+          "course_name": "Art",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "harper.allen@example.com",
+        "phone": "222-333-4444"
+      },
+      "address": {
+        "street": "987 Spruce St",
+        "city": "Newtown",
+        "state": "IL",
+        "zip": "67890"
+      },
+      "enrollment_date": "2019-01-25"
+    },
+    {
+      "id": "37",
+      "name": "Jack Hill",
+      "age": 22,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 173,
+          "course_name": "Mathematics",
+          "grade": "A"
+        },
+        {
+          "course_id": 174,
+          "course_name": "Physics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "jack.hill@example.com",
+        "phone": "333-444-5555"
+      },
+      "address": {
+        "street": "123 Aspen St",
+        "city": "Somecity",
+        "state": "CA",
+        "zip": "78901"
+      },
+      "enrollment_date": "2020-11-10"
+    },
+    {
+      "id": "38",
+      "name": "Scarlett Turner",
+      "age": 23,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 175,
+          "course_name": "Philosophy",
+          "grade": "A"
+        },
+        {
+          "course_id": 176,
+          "course_name": "Economics",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "scarlett.turner@example.com",
+        "phone": "444-555-6666"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "12345"
+      },
+      "enrollment_date": "2019-05-20"
+    },
+    {
+      "id": "39",
+      "name": "Owen Brown",
+      "age": 22,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 177,
+          "course_name": "Engineering",
+          "grade": "A-"
+        },
+        {
+          "course_id": 178,
+          "course_name": "Computer Science",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "owen.brown@example.com",
+        "phone": "555-666-7777"
+      },
+      "address": {
+        "street": "789 Pine St",
+        "city": "Sometown",
+        "state": "FL",
+        "zip": "34567"
+      },
+      "enrollment_date": "2020-01-20"
+    },
+    {
+      "id": "40",
+      "name": "Emily Campbell",
+      "age": 21,
+      "gender": "Female",
+      "courses": [
+        {
+          "course_id": 179,
+          "course_name": "English",
+          "grade": "A"
+        },
+        {
+          "course_id": 180,
+          "course_name": "Art",
+          "grade": "B+"
+        }
+      ],
+      "contact_details": {
+        "email": "emily.campbell@example.com",
+        "phone": "666-777-8888"
+      },
+      "address": {
+        "street": "321 Birch St",
+        "city": "Anycity",
+        "state": "NY",
+        "zip": "78901"
+      },
+      "enrollment_date": "2018-09-20"
+    },
+    {
+      "name": "Ram Uttam Chavan",
+      "age": 28,
+      "gender": "Male",
+      "courses": [
+        {
+          "course_id": 119,
+          "course_name": "Engineering",
+          "grade": "A+"
+        },
+        {
+          "course_id": 111,
+          "course_name": "Botony",
+          "grade": "A++"
+        }
+      ],
+      "contact_details": {
+        "email": "ram.chavan@example.com",
+        "phone": "9359032001"
+      },
+      "address": {
+        "street": "Karve road near dmart update",
+        "city": "Pune",
+        "state": "MH",
+        "zip": "411052"
+      },
+      "enrollment_date": "2016-06-10",
+      "id": "2c1c"
+    }
+  ]
+}

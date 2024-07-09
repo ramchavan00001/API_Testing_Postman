@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "fe25778a-29a3-4ce0-952b-357a8fc20452",
+		"name": "MyCollectionOwnAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20210399",
+		"_collection_link": "https://restless-zodiac-525891.postman.co/workspace/MyOwnApiTesting~ad1b9846-bf6c-4d80-aa6f-52614cfc2f28/collection/20210399-fe25778a-29a3-4ce0-952b-357a8fc20452?action=share&source=collection_link&creator=20210399"
+	},
+	"item": [
+		{
+			"name": "GetAllStudentData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSingleStudentDataBasedOnHisID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students/2c1c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						"2c1c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createNewStudentRecord",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"Ram Chavan\",\r\n    \"age\": 28,\r\n    \"gender\": \"Male\",\r\n    \"courses\": [\r\n        {\r\n            \"course_id\": 119,\r\n            \"course_name\": \"Engineering\",\r\n            \"grade\": \"A+\"\r\n        },\r\n        {\r\n            \"course_id\": 111,\r\n            \"course_name\": \"Botony\",\r\n            \"grade\": \"B++\"\r\n        }\r\n    ],\r\n    \"contact_details\": {\r\n        \"email\": \"ram.chavan@example.com\",\r\n        \"phone\": \"9359032001\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"Karve road\",\r\n        \"city\": \"Pune\",\r\n        \"state\": \"MH\",\r\n        \"zip\": \"411052\"\r\n    },\r\n    \"enrollment_date\": \"2016-06-10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/students/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTheExistingRecord",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"Ram Uttam Chavan\",\r\n    \"age\": 28,\r\n    \"gender\": \"Male\",\r\n    \"courses\": [\r\n        {\r\n            \"course_id\": 119,\r\n            \"course_name\": \"Engineering\",\r\n            \"grade\": \"A+\"\r\n        },\r\n        {\r\n            \"course_id\": 111,\r\n            \"course_name\": \"Botony\",\r\n            \"grade\": \"A++\"\r\n        }\r\n    ],\r\n    \"contact_details\": {\r\n        \"email\": \"ram.chavan@example.com\",\r\n        \"phone\": \"9359032001\"\r\n    },\r\n    \"address\": {\r\n        \"street\": \"Karve road near dmart update\",\r\n        \"city\": \"Pune\",\r\n        \"state\": \"MH\",\r\n        \"zip\": \"411052\"\r\n    },\r\n    \"enrollment_date\": \"2016-06-10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/students/2c1c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						"2c1c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteTheExistingRecord",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students/33",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						"33"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
