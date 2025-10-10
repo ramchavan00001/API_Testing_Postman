@@ -1,0 +1,1015 @@
+{
+	"info": {
+		"_postman_id": "03998a20-47e9-4a41-b887-ba9a7602d422",
+		"name": "DemoQA_SwaggerAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20210399",
+		"_collection_link": "https://restless-zodiac-525891.postman.co/workspace/My_FirstWorkspace~ef850837-d3d5-4743-83ec-91f84cc9bd5a/collection/20210399-03998a20-47e9-4a41-b887-ba9a7602d422?action=share&source=collection_link&creator=20210399"
+	},
+	"item": [
+		{
+			"name": "ACC-001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Test@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-002",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-003",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Test@123\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-004-Boundry",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Test@123\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-005-UniqueStrongUser",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Test@123\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-006-GenerateToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Test@123\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/GenerateToken",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"GenerateToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-007-NEGATIVE-GenerateToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Testghgdfjhs\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/GenerateToken",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"GenerateToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-008-Negative-nonexistent-user-GenerateToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Testghgdfjhs\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/GenerateToken",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"GenerateToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-009-AuthorizationTest",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Testghgdfjhs\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/Authorized",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"Authorized"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-010- get user ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMSIsInBhc3N3b3JkIjoiVGVzdEAxMjM0IiwiaWF0IjoxNzU5OTQxMzEzfQ.g60VjKAHq4U_T16WP9DEdb-7Z9yrRITfW_7d2mFMpuc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/eefea9e2-e0d5-4a13-9026-45b772255b31",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"eefea9e2-e0d5-4a13-9026-45b772255b31"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-011-Negative-InvalidUserID-ButValidToke",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMSIsInBhc3N3b3JkIjoiVGVzdEAxMjM0IiwiaWF0IjoxNzU5OTQxMzEzfQ.g60VjKAHq4U_T16WP9DEdb-7Z9yrRITfW_7d2mFMpuc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/eefea9e2-e0d5-4a13-9026-45b772255b31",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"eefea9e2-e0d5-4a13-9026-45b772255b31"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-014-Security-valid UID - No authorization",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMSIsInBhc3N3b3JkIjoiVGVzdEAxMjM0IiwiaWF0IjoxNzU5OTQxMzEzfQ.g60VjKAHq4U_T16WP9DEdb-7Z9yrRITfW_7d2mFMpuc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/eefea9e2-e0d5-4a13-9026-45b772255b31",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"eefea9e2-e0d5-4a13-9026-45b772255b31"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-015-Security-Attempt to retrieve another user's details (Authorization check)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMSIsInBhc3N3b3JkIjoiVGVzdEAxMjM0IiwiaWF0IjoxNzU5OTQxMzEzfQ.g60VjKAHq4U_T16WP9DEdb-7Z9yrRITfW_7d2mFMpuc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/eefea9e2-e0d5-4a13-9026-45b772255b31",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"eefea9e2-e0d5-4a13-9026-45b772255b31"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-016-Functional-Successfully delete the newly created user account.",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/3a03af4c-8dd0-4dd0-98a2-3686851dab65",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"3a03af4c-8dd0-4dd0-98a2-3686851dab65"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-017-Negative-Attempt to delete a user that has already been deleted.",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/abd77ccc-2d9b-4dc0-99bf-6cc2ab560c68",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"abd77ccc-2d9b-4dc0-99bf-6cc2ab560c68"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-018-Security-Attempt to delete a user without authentication.",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/b8a41dfd-22f5-4eda-967d-77ce6c6e3e1e",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"b8a41dfd-22f5-4eda-967d-77ce6c6e3e1e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ACC-019-Security-Attempt to delete another user's account (Authorization check).",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Account/v1/User/b8a41dfd-22f5-4eda-967d-77ce6c6e3e1e",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Account",
+						"v1",
+						"User",
+						"b8a41dfd-22f5-4eda-967d-77ce6c6e3e1e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-020-Positive-Retrieve the entire list of books in the catalog (Positive).",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Testghgdfjhs\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-023-Functional-Retrieve details for a known, valid ISBN.",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Testghgdfjhs\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-024-Negative-Attempt to retrieve details for a non-existent ISBN.",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userName\": \"rcdemoqa\",\r\n  \"password\": \"Testghgdfjhs\"\r\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Book",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-025-Negative-Attempt to retrieve details with an invalidly formatted ISBN.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Book?ISBN=9781449337711",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					],
+					"query": [
+						{
+							"key": "ISBN",
+							"value": "9781449337711"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-026-Negative-Attempt to retrieve details with the ISBN query parameter missing.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Book?ISBN=ABCD",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					],
+					"query": [
+						{
+							"key": "ISBN",
+							"value": "ABCD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-027-Successfully add a single book to a user's collection.",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-028-Successfully add multiple books to a user's collection.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-029-Negative-Attempt to add a book with an invalid (non-existent) ISBN.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-030-Negative-Attempt to add a book with an invalid userId format",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-033-Functional-Attempt to add the same book twice to the user's collection.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-034-Functional-Successfully replace an existing book with a new one.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-035-Negative-Attempt to replace a book that is not in the collection.",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books/9781449331818",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books",
+						"9781449331818"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-036-Negative-Attempt to replace a book with a non-existent new ISBN.",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books/9781449331818",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books",
+						"9781449331818"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-037-Security-Attempt to replace a book without a valid token.",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books/9781449337711",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books",
+						"9781449337711"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-038-Negative-security-Attempt to replace a book in another user's collection.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Books/9781593275846",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books",
+						"9781593275846"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-039-Successfully remove a specific book from a user's collection.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Book",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-040-Negative-Attempt to delete a book that is not in the user's collection.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Book",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BOK-041-Negative-Attempt to delete a book with a missing userId in the payload.",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJjZGVtb3FhMTciLCJwYXNzd29yZCI6IlRlc3RAMTIzNTY3OCIsImlhdCI6MTc2MDAyODUxM30.ZlRCaM4OGJNs-fWd83hI-xbDFO1qs2Pu58sec_B83_0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseUrl}}/BookStore/v1/Book",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Book"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://demoqa.com",
+			"type": "string"
+		}
+	]
+}
